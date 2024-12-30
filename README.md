@@ -14,15 +14,13 @@ This site is hosted at Heroku.
 
 ## https://www.myagdinsurance.com/
 
-### First push to our canonical "origin" repository on Bitbucket
+### THIS REPO HAS BEEN MOVED TO GITHUB
 
 ``git push``  
  or  
 ``git push origin master``
 
-### Secondly, push to the Heroku server
-
-``git push heroku master``
+### This will automatically trigger the build on Heroku
 
 ---
 
