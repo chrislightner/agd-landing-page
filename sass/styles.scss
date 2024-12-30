@@ -1,0 +1,380 @@
+//Open Sans import from Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800");
+//font-family: 'Open Sans', sans-serif;
+
+/****************************************/
+
+/*             Variables                */
+
+/****************************************/
+
+$font-stack: "Open Sans",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$font-stack-system: Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$font-stack-headers: "Open Sans",
+serif;
+$primary-color: #3178b6; //blue
+$secondary-color: #002060; //darkblue
+$text-color:#464646;
+
+//colors pulled from https://www.agd.org/
+
+$agd-main-blue: #3178b6;
+
+$agd-blue: #00b0f0;
+$agd-darkblue: #002060;
+$agd-button-blue:#3178b6;
+$agd-button-blue-hover:#003951;
+
+//override default bootstrap link color with one that is WCAG compliant
+a {
+    // color: #007bff;
+    color: #006CE0;
+}
+
+a.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active {
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+}
+
+.bg-blue {
+    background-color: $agd-main-blue;
+}
+
+.blue {
+    color: $agd-main-blue;
+}
+
+.darkblue {
+    color: $agd-button-blue-hover;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: $agd-button-blue;
+    border-color: $agd-button-blue;
+}
+
+.btn-primary:hover {
+    background-color: $agd-button-blue-hover;
+    border-color: $agd-button-blue-hover;
+}
+
+.navbar {
+
+    img {
+        width: 150px;
+        margin-right: 20px;
+        height: auto;
+        -ms-interpolation-mode: bicubic;
+    }
+
+    .phonenumber {
+        font-size: .9em;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.small {
+    font-size: .9rem;
+}
+
+.scrolldown {
+    width: 50px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    border: none;
+}
+
+main {
+    background-color: #efefef;
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    background-image: url(../images/istockphoto-501713762.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 300px;
+    margin-bottom: 0;
+
+    h1 {
+        color: $text-color;
+        font-weight: 700;
+        width: 50%;
+        line-height: 1.1em;
+        font-size: 1.25rem;
+    }
+}
+
+.banner {
+    background-color: $primary-color;
+    color: #ffffff;
+    padding: 10px;
+
+    h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        letter-spacing: .05em;
+    }
+}
+
+.coverages-two {
+    .col-lg {
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+
+        .h2 {
+            font-size: 1.0rem;
+            color: #ffffff;
+            font-weight: 700;
+            background-color: rgba(0, 0, 0, .2);
+            padding: .2rem 0;
+
+            div {
+                padding: 1rem;
+                text-align: left;
+            }
+        }
+
+        p {
+            padding: .2rem 1rem;
+            text-align: left;
+            color: #fff;
+            margin-bottom: 50px;
+            font-size: 15px;
+        }
+
+        .btn {
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            bottom: 20px;
+            max-width: 130px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.secondary-page {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h1 {
+        margin: 0 0 30px;
+    }
+
+    h2 {
+        font-weight: 700;
+    }
+
+    #accordion {
+        h5 {
+            font-size: 1rem;
+        }
+    }
+
+    .sidebar {
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    .card-header {
+        cursor: pointer;
+    }
+}
+
+
+footer {
+    padding: 20px 0 0;
+    font-size: .75rem;
+    color: #666;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// custom
+@media (min-width: 380px) {
+    .jumbotron {
+        background-position: top right;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .jumbotron {
+        background-position: top right;
+        background-position-x: 120%;
+        padding: 4rem 2rem 0;
+
+        h1 {
+            font-size: 2em;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .jumbotron {
+        background-position: top right;
+        background-position-x: 125%;
+        background-position-y: 10%;
+        height: 350px;
+
+        h1 {
+            font-size: 3em;
+            width: 64%;
+        }
+    }
+
+    .navbar {
+        .phonenumber {
+            width: auto;
+            text-align: right;
+            display: inline-block;
+        }
+    }
+
+    .coverages-two {
+        .col-lg {
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    .container {
+        max-width: 98%;
+    }
+
+    .jumbotron {
+        height: 400px;
+    }
+
+    .navbar {
+        img {
+            width: 250px;
+            height: auto;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        .phonenumber {
+            font-size: 1em;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        display: block;
+    }
+
+    .coverages-two {
+        .col-lg {
+            height: 450px;
+
+            .h2 {
+                height: 24%;
+                position: relative;
+
+                div {
+                    position: absolute;
+                    bottom: 0;
+                    padding: .5rem 1rem;
+                }
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1350px;
+    }
+
+    .jumbotron {
+        background-position-x: 100%;
+        background-position-y: 22%;
+        height: 450px;
+
+        h1 {
+            font-size: 3.5em;
+            width: 60%;
+        }
+    }
+
+    .coverages-two {
+        .col-lg {
+            height: 420px;
+
+            .h2 {
+                height: 24%;
+                position: relative;
+
+                div {
+                    position: absolute;
+                    bottom: 0;
+                    padding: .5rem 1rem;
+                }
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+}

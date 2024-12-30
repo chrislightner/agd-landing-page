@@ -1,0 +1,63 @@
+RewriteEngine On
+
+# If we receive a forwarded http request from a proxy...
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+
+# ...or just a plain old http request directly from the client
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+
+# Redirect to https version
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Put the rest of your rewrite rules here
+
+# Redirects from previous site
+
+Redirect 301 /life/group-term-life-insurance http://www.myagdinsurance.com/
+
+Redirect 301 /health/agd-health-insurance http://www.myagdinsurance.com/
+
+Redirect 301 /disability/group-disability-income http://www.myagdinsurance.com/
+
+Redirect 301 /disability/group-quarterly-rates http://www.myagdinsurance.com/
+
+Redirect 301 /about-hbi/disclaimer http://www.myagdinsurance.com/
+
+Redirect 301 /disability/group-accidental-death-dismemberment http://www.myagdinsurance.com/
+
+Redirect 301 /other-benefits/long-term-care http://www.myagdinsurance.com/
+
+Redirect 301 /life/10-year-term-life-insurance http://www.myagdinsurance.com/
+
+Redirect 301 /cyberrisk.htm http://www.myagdinsurance.com/
+
+# Enable compression
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/opentype
+# For Olders Browsers Which Can't Handle Compression
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
