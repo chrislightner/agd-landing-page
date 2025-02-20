@@ -85,7 +85,7 @@
           </div>
           <p>Select your monthly premium that’s right for you and add to your family’s life insurance protection.
             Includes the option to lock in your rate for 10&nbsp;years.</p>
-          <p><a class="btn btn-outline-light" href="https://coveragedetails.net/agd/life/5084" role="button"
+          <p><a class="btn btn-outline-light" href="https://www.coveragedetails.net/agd/life/5084?utm_campaign=MyAGDLife&utm_source=MyAGD&hbic=8860-LI" role="button"
               target="_blank" aria-label="View Group Life Insurance Details">View
               details »</a></p>
         </div>
@@ -96,7 +96,7 @@
           <p>Strengthen your disability coverage with up to $10,000 in monthly income tax-free benefits to use any way
             you
             want. See your cost in seconds, online.</p>
-          <p><a class="btn btn-outline-light" href="https://coveragedetails.net/agd/di/5083" role="button"
+          <p><a class="btn btn-outline-light" href="https://www.coverageinfo.net/agd/di/5083?utm_campaign=MyAGDDI&utm_source=MyAGD&c=8860-DI" role="button"
               target="_blank" aria-label="View Group Disability Income Insurance Details">View details
               »</a></p>
         </div>
