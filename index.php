@@ -144,7 +144,7 @@
           <div class="h2">
             <div>Additional Insurance</div>
           </div>
-          <p>More information about Long-Term Care Insurance, Group Home and Auto Insurance and Group Accidental
+          <p>More information about Group Home and Auto Insurance and Group Accidental
             Death&nbsp;&
             Dismemberment Insurance for
             AGD members.</p>
