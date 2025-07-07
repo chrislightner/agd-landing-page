@@ -137,7 +137,7 @@
           <div class="h2">
             <div>Long-Term Care & Medicare Supplement Insurance</div>
           </div>
-          <p>Expert guidance to help find the best long-term care and Medicare Supplement value for your unique needs from top providers nationwide, with AGD member discounts.</p>
+          <p>Expert guidance to help find the best Long-Term Care and Medicare Supplement value for your unique needs from top providers nationwide, with AGD member discounts.</p>
           <p class=""><a class="btn btn-outline-light" href="ltc-and-medicare.htm" role="button" aria-label="Long-Term Care & Medicare Supplement Insurance Details">View details »</a></p>
         </div>
         <div class="col-lg bg-blue">
