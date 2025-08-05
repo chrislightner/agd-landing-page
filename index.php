@@ -130,8 +130,9 @@
           <div class="h2">
             <div>Pet Insurance</div>
           </div>
-          <p>Save up to 10% on ASPCA Pet Health Insurance! Complete Coverage<sup>SM</sup> can help you give your pet the best care possible with less worry about the cost.</p>
-          <p class=""><a class="btn btn-outline-light" href="https://www.aspcapetinsurance.com/AcademyofGeneralDentistry" role="button" aria-label="View Pet Insurance Details">View details »</a></p>
+          <p>Special offer for AGD Members - save up to 20%<sup>&dagger;</sup> with Spot Pet Insurance, America’s favorite pet insurance!
+						<span style="font-size:0.8em;display:block;margin-top:10px;line-height: normal;"><sup>&dagger;</sup>10% group discount on every pet, plus an additional 10% multi-pet discount on all pets after the first. Group discount is not available in&nbsp;HI&nbsp;or&nbsp;TN.</span></p>
+          <p class=""><a class="btn btn-outline-light" href="https://spotpet.link/agd" role="button" aria-label="View Pet Insurance Details">View details »</a></p>
         </div>
         <div class="col-lg bg-blue">
           <div class="h2">
