@@ -85,7 +85,7 @@
           </div>
           <p>Select your monthly premium that’s right for you and add to your family’s life insurance protection.
             Includes the option to lock in your rate for 10&nbsp;years.</p>
-          <p><a class="btn btn-outline-light" href="https://www.coveragedetails.net/agd/life/5084?utm_campaign=MyAGDLife&utm_source=MyAGD&hbic=8860-LI" role="button"
+          <p><a class="btn btn-outline-light" href="https://www.coverageinfo.net/agd/life/5084?utm_campaign=MyAGDLife&utm_source=MyAGD&c=8860-LI" role="button"
               target="_blank" aria-label="View Group Life Insurance Details">View
               details »</a></p>
         </div>
