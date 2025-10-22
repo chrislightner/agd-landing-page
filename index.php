@@ -108,6 +108,8 @@
             incident such as data breach or electronic theft.</p>
           <p><a class="btn btn-outline-light" href="https://marketing.seedpodcyber.com/agdsales" role="button" aria-label="View Cyber Enterprise Risk Management Details" target="_blank">View details »</a></p>
         </div>
+      </div>
+      <div class="row">
         <div class="col-lg bg-blue">
           <div class="h2">
             <div>Small Group Health Insurance Coverage</div>
@@ -116,8 +118,6 @@
             your best option and get an instant quote.</p>
           <p><a class="btn btn-outline-light" href="smallgrouphealth.htm" role="button" aria-label="View Small Group Health Insurance Coverage Details">View details »</a></p>
         </div>
-      </div>
-      <div class="row">
         <div class="col-lg bg-blue">
           <div class="h2">
             <div>Group Business Overhead Expense Insurance</div>
@@ -133,6 +133,8 @@
           <p>Special offer for AGD Members - save up to 20%<sup>*</sup> with Spot Pet Insurance, America’s favorite pet insurance!</p>
           <p class=""><a class="btn btn-outline-light" href="https://spotpet.link/agd" role="button" aria-label="View Pet Insurance Details">View details »</a></p>
         </div>
+      </div>
+      <div class="row">
         <div class="col-lg bg-blue">
           <div class="h2">
             <div>Long-Term Care & Medicare Supplement Insurance</div>
@@ -149,6 +151,13 @@
             Dismemberment Insurance for
             AGD members.</p>
           <p class=""><a class="btn btn-outline-light" href="additional.htm" role="button" aria-label="View Additional Insurance Details">View details »</a></p>
+        </div>
+        <div class="col-lg bg-blue">
+          <div class="h2">
+            <div>Constituent-Component Insurance</div>
+          </div>
+          <p>Coverage options for AGD Constituent-Component members.</p>
+          <p class=""><a class="btn btn-outline-light" href="constituent-component.htm" role="button" aria-label="View Additional Insurance Details">View details »</a></p>
         </div>
       </div>
 
