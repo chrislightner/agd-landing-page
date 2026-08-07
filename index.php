@@ -169,44 +169,10 @@
 
   <div w3-include-html="includes/footer.htm"></div>
 
-  <!-- <script src="scripts/jquery-3.3.1.slim.min.js"></script> -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="scripts/bootstrap.bundle.min.js"></script>
+  <script src="scripts/site.js"></script>
   <script src="scripts/includeHTML.js"></script>
   <script>
     includeHTML();
-  </script>
-  <script>
-    setTimeout(function () {
-
-      $(document).ready(function () {
-        // Add smooth scrolling to all links
-        $("a").on('click', function (event) {
-          console.log('click');
-          // Make sure this.hash has a value before overriding default behavior
-          if (this.hash !== "") {
-            // Prevent default anchor click behavior
-            event.preventDefault();
-
-            // Store hash
-            var hash = this.hash;
-
-            // Using jQuery's animate() method to add smooth page scroll
-            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function () {
-
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
-          } // End if
-        });
-      });
-
-
-    }, 1000);
   </script>
 </body>
 
